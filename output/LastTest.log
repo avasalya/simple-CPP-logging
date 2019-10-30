@@ -1,0 +1,57 @@
+Start testing: Oct 30 15:28 JST
+----------------------------------------------------------
+1/1 Testing: log_multi_test
+1/1 Test: log_multi_test
+Command: "/home/avasalya/Desktop/cpp logging/build/main" "logging" "main.cpp" "logging.cpp"
+Directory: /home/avasalya/Desktop/cpp logging/build
+"log_multi_test" start time: Oct 30 15:28 JST
+Output:
+----------------------------------------------------------
+
+***use below expressions to log strings & common data types on the terminal***
+
+[01;04;31;47muse this to 'Log_Emergency' messages on terminal: Level=0 - highest[00m
+
+[01;04;31muse this to 'Log_Alert' messages on terminal: Level=1
+[00m
+[01;31muse this to 'Log_Critical' messages on terminal: Level=2
+[00m
+[00;31muse this to 'Log_Error' messages on terminal: Level=3
+[00m
+[0;35muse this to 'Log_Warning' messages on terminal: Level=4
+[00m
+[0;36muse this to 'Log_Debug' messages on terminal: Level=5
+[00m
+[0;34muse this to 'Log_Info' messages on terminal: Level=6
+[00m
+[0;32muse this to 'Log_Success' messages on terminal: Level=7 - lowest
+[00m
+[0;30muse this to 'Log_general' messages on terminal
+[00m
+[0;34muse 'LOG_ERROR_THROW' to catch std exceptions and throw Error message, such as-- 'LOG_ERROR_THROW(std::runtime_error, runtime_error --- 'name_your_reason')[00m
+
+***use below expressions (see code) to log strings to the file, with and without Multithreading***
+
+[0;34mlogs are stored in '.log' file in 'tmp' folder[00m
+[0;30m
+an example -- displaying log strings on terminal which are being saved into files-->>[00m
+[0;30mthank [00m
+[0;30myou[00m
+[0;30mfor [00m
+[0;30myour [00m
+[0;30msupport
+[00m
+[0;34mclosing file ../tmp/Project_strings_log_Wed Oct 30 15:28:15 2019.log[00m
+[0;34mclosing file ../tmp/Project_vector_of_strings_log_Wed Oct 30 15:28:15 2019.log[00m
+[0;34mclosing file ../tmp/Project_thread_strings_log_Wed Oct 30 15:28:15 2019.log[00m
+[0;34mclosing file ../tmp/Project_thread_vector_of_strings_log_Wed Oct 30 15:28:15 2019.log[00m
+[0;34mclosing file ../tmp/Project_thread_add_vector_of_strings_log_Wed Oct 30 15:28:15 2019.log[00m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"log_multi_test" end time: Oct 30 15:28 JST
+"log_multi_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 30 15:28 JST
